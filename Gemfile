@@ -14,9 +14,11 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'rack-cors'
 
 group :development, :test do
+  gem 'dotenv-rails'
   gem 'pry-rails'
   gem 'rspec-rails', '>= 3.5.0'
   gem 'factory_girl_rails'
+  gem 'shoulda-matchers', '~> 3.1'
   gem 'awesome_print'
 end
 
